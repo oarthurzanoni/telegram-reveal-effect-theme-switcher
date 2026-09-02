@@ -1,19 +1,36 @@
-# Telegram theme switch reveal effect
+# Telegram-style Theme Reveal
 
-## _a weekend challenge_
+A browser experiment that recreates Telegram's circular reveal animation when switching themes.
 
-Create a reveal theme switch effect like Telegram is not perfectly possible yet because it is not possible to take a screenshot that perfectly matches what is shown on the screen by using the dom-to-image library. This library does not render the correct font family and break word in a button for example.
+## Project goal
 
-![Screenshot 1](/.github/screenshot.png)
+Investigate how a visually complex native-style theme transition can be approximated on the web with DOM snapshots, clipping and CSS animation.
 
-## References
+## Features
 
-- [Change Theme Dynamically with Circular Reveal Animation on Android](https://proandroiddev.com/change-theme-dynamically-with-circular-reveal-animation-on-android-8cd574f5f0d8)
+- Light and dark themes
+- Circular reveal transition
+- Pointer-origin animation
+- Static live demo
 
-## Check the final result
+## Technologies
 
-You can check the final result at this link: [mitacho.github.io/telegram-reveal-effect-theme-switcher](https://mitacho.github.io/telegram-reveal-effect-theme-switcher/)
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **DOM APIs**
 
-## License
+## What I learned
 
-MIT
+- Coordinating CSS and JavaScript animation state
+- Calculating a reveal origin from pointer coordinates
+- Understanding the limitations of DOM-to-image techniques
+- Prototyping a native interaction pattern for the browser
+
+## Running locally
+
+Open `index.html` in a modern browser.
+
+## Project status
+
+This is a learning and experimentation repository. It documents the concepts practiced at the time and is not presented as a production-ready application.
